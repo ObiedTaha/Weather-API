@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ nav{
+    background-color: #1E202B;
+}
+nav a {
+    border:2px solid transparent;
+    color: #fff !important;
+    border-radius: 27px;
+    padding:0 29px;
+    margin: 0 5px;
+}
+ nav  .nav-item{
+    margin: 5 5px;
+}
+
+nav .nav-item .active ,nav  .nav-item:hover a{
+    border:2px solid #009AD8;
+    color: #009AD8 !important;
+}
+.toggel{
+    color: #fff;
+    font-size: 2rem;
+}
+.navbar-toggler{
+border :1px solid #009AD8;
+}
+
+.searchBtn{
+ position: absolute;
+    right: 0%;
+    top: 0%;
+    height: 100%;
+}
+/* comop is the col-md-4 */
+.compo{
+    /* height: 400px !important; */
+    background-color: #323544;
+    padding: 0 !important;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif   !important ;
+    font-weight: 500;
+}
+.card-header{
+        background-color: #2D303D ;
+        color: #868284 !important;
+        width: 100% !important;
+}
+.card-body{
+    color: #8f8c8e !important;
+}
+.dark{
+    background-color: #262936 !important;
+}
+.dark .card-header{
+    background-color: #222531 !important;
+}
+.temp{
+    font-size: 1.5rem !important;
+}
+.mainTemp{
+    font-size: 6rem !important;
+    font-weight: 800;
+}
+.custom{
+    color:#009ad8;
+}
+#weather{
+    background-color:#1E202B ;
+    background-image: url('../images/banner.png');
+    background-size:contain ;
+    background-repeat: no-repeat;
+}

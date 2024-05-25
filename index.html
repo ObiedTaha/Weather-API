@@ -1,0 +1,70 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>obied</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dar p-5">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid"> Weather</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="toggel"><i class="fas fa-align-justify"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="weather" class="py-5" >
+        <div class=" my-5 position-relative w-75 m-auto">
+            <input id="search" class="search form-control mt-5 text-white rounded-pill bg-dark p-3 border-0" type="text"
+                placeholder=" Find Your Location.....">
+            <label for="search">
+                <button class="searchBtn btn btn-primary  ms rounded-pill px-5 py-2">Find</button>
+            </label>
+        </div>
+
+        <div class="container" >
+            <div class="row rounded overflow-hidden" id="weatherContent">
+
+            </div>
+        </div>
+    </section>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="module" src="js/mainModule.js"></script>
+</body>
+
+
+</html>
